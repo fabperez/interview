@@ -109,7 +109,7 @@ Ready después de que el HTML ha sido cargado, onload cuando el html mas recurso
 
 ### ¿En que parte del documento es más recomendable agregar los links y scripts: header o footer?
 * Etiquetas <link> en el header.  
-* Los <script> hasta abajo, antes de cerrar la etiqueta </body>
+* Los scripts hasta abajo, antes de cerrar la etiqueta body
 
 Es más recomendable porque le damos lugar a que se cargue todo el documento HTML con sus estilos y después trabajar con la funcionalidad del Javascript evitando que la página se detenga para ejecutar primero las funcionalidades del Javascript. Haciendo esto le damos un mejor rendimiento y velocidad a la pagina web.
 
