@@ -70,8 +70,15 @@ c =2;// Global
 }
 ```
 
-### ¿Qué significa el atributo defer/async cuándo se añade a la etiqueta script?   Async: Podremos especificar que dicho archivo pueda ser ejecutado de manera asíncrona, sin que el código HTML se vea bloqueado por su presencia. 
-<script async src="script.js">   Defer: permite indicar que el script se ejecutará una vez se haya cargado el resto de la página.   <script defer src="script.js">
+### ¿Qué significa el atributo defer/async cuándo se añade a la etiqueta script? 
+* Async: Podremos especificar que dicho archivo pueda ser ejecutado de manera asíncrona, sin que el código HTML se vea bloqueado por su presencia.
+```javascript
+<script async src="script.js"> 
+```
+* Defer: permite indicar que el script se ejecutará una vez se haya cargado el resto de la página. 
+``` javascript 
+<script defer src="script.js">
+```
 
 ### ¿Cuál es la diferencia entre == y ===?
 * == Compara dos valores y devuelve true si ambos son iguales.
